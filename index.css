@@ -1,0 +1,62 @@
+  /*Navigation bar style*/
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #e0caab;
+  }
+
+  li {
+    float: left;
+  }
+
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 15px 20px;
+    text-decoration: none;
+  }
+
+  li a:hover {
+    background-color: #a8977e;
+  }
+
+  /*Style of the search bar*/
+
+  .search {
+    float: right;
+    padding: 6px;
+    border-radius: 35px;
+    margin-top: 12px;
+    margin-right: 25px;
+    font-size: 17px;
+  }
+
+  /*Main pic*/
+
+  img {
+    width: 100%;
+    height: auto;
+    opacity: 0.5;
+  }
+
+  /* Container holding the image and the text */
+
+  .main_pic {
+    position: relative;
+    text-align: center;
+    color: rgb(38, 35, 35);
+  }
+
+  /* Centered text */
+
+  .center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Aclonica';font-size: 22px;
+  }
