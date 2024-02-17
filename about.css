@@ -1,6 +1,4 @@
-  /*Navigation bar style*/
-
-  ul {
+ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -24,8 +22,6 @@
     background-color: #c7a97b;
   }
 
-  /*Style of the search bar*/
-
   .search {
     float: right;
     padding: 6px;
@@ -35,49 +31,17 @@
     font-size: 17px;
   }
 
-  /*Main pic*/
-
-  .pic1 {
-    width: 100%;
-    height: auto;
-    opacity: 0.4;
-  }
-
-  /* Container holding the image and the text */
-
-  .main_pic {
-    position: relative;
+  h1 {
     text-align: center;
-    color: rgb(45, 34, 25);
-  }
-
-  /* Centered text */
-
-  .center {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-family: 'Abhaya Libre';
-    font-size: 22px;
-  }
-
-  .container {
     font-family: 'Abhaya Libre';
   }
 
-  .paragraph {
-    text-align: left;
-    width: 50%;
-    margin: 20px;
+  .about_sections {
+    font-family: 'Abhaya Libre';
   }
 
-  .heading {
-    margin: 20px;
-  }
-
-  .home_pics {
-    margin-left: 300px;
+  .about_images {
+    margin-left: 530px;
   }
 
   footer {
